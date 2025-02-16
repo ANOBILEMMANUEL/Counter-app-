@@ -17,7 +17,8 @@ decre.addEventListener("click",()=>{
     dis.innerHTML=count
 });
 reset.addEventListener("click",()=>{
-    dis.innerHTML="0"
+    count=0
+    dis.innerHTML=count;
 });
 color.addEventListener("input",()=>{
     const picked =color.value;
