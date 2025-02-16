@@ -15,11 +15,11 @@ background-color: rgb(167, 255, 255);
 }
 #display{
     color: #fff;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .increase,.decrease ,.reset{
-    width: 10rem;
-    height: 5rem;
+    width: 15rem;
+    height: 10rem;
     border: none;
     font-size: 2rem;
     border-radius: 10px;
@@ -40,11 +40,15 @@ background-color: rgb(167, 255, 255);
 
 }
 .btn-reset{
-    width: 20rem;
+    width: 30rem;
 }
 .container{
-    min-width: 40rem;
-    height: 30rem;
+    min-width: 60rem;
+    min-height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: absolute;
     text-align: center;
     border-radius: 30px;
